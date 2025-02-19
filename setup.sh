@@ -22,3 +22,7 @@ sudo apt install zsh-syntax-highlighting
 
 # now install tmux
 sudo apt install tmux
+
+# install tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux source ~/.tmux.conf
