@@ -33,3 +33,7 @@ save editor defaults
 
 export EDITOR='nvim'
 export VISUAL='nvim'
+
+# set up neovim config
+mkdir ~/.config/nvim
+cd ~/.config/nvim
