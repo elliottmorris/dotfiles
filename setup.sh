@@ -44,3 +44,5 @@ echo 'export PATH="$PATH:/opt/nvim-linux-x86_64/bin"' >>~/.zshrc
 # set up neovim config
 mkdir ~/.config/nvim
 ## add folder contents from this repo
+
+# isntall ripgrep
