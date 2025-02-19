@@ -26,3 +26,10 @@ sudo apt install tmux
 # install tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux source ~/.tmux.conf
+
+# make sure colors work in tmux
+export TERM='xterm-256color'
+save editor defaults
+
+export EDITOR='nvim'
+export VISUAL='nvim'
