@@ -17,7 +17,6 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 # install autocomplete and syntax highlighting
 sudo apt install zsh-autosuggestions 
-
 sudo apt install zsh-syntax-highlighting
 
 # now install tmux
@@ -25,6 +24,8 @@ sudo apt install tmux
 
 # install tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+touch ~/.tmux.conf
+## add contents from this repo
 tmux source ~/.tmux.conf
 
 # make sure colors work in tmux
@@ -36,4 +37,4 @@ export VISUAL='nvim'
 
 # set up neovim config
 mkdir ~/.config/nvim
-cd ~/.config/nvim
+## add folder contents from this repo
