@@ -14,3 +14,11 @@ chsh -s $(which zsh).
 # install powerlevel 10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+# install autocomplete and syntax highlighting
+sudo apt install zsh-autosuggestions 
+
+sudo apt install zsh-syntax-highlighting
+
+# now install tmux
+sudo apt install tmux
