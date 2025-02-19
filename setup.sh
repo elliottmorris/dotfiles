@@ -35,6 +35,12 @@ save editor defaults
 export EDITOR='nvim'
 export VISUAL='nvim'
 
+# install neovim
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+
 # set up neovim config
 mkdir ~/.config/nvim
 ## add folder contents from this repo
+echo 'export PATH="$PATH:/opt/nvim-linux-x86_64/bin"' >>~/.zshrc
